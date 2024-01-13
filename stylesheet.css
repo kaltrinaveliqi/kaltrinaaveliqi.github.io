@@ -9,7 +9,7 @@
 }
 
 element.style {
-    background-image: url('C:/Users/ccc/Desktop/Projekti/111.jpg');
+    background-image: url(111.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
