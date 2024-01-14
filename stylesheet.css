@@ -839,5 +839,9 @@ button:not(:disabled) {
     text-align: justify;
 }
 
-
 /* Start Media Query */
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+    }
+}
