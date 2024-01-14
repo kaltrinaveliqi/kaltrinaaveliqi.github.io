@@ -845,3 +845,7 @@ button:not(:disabled) {
         flex-direction: column;
     }
 }
+
+#navbarNav {
+    justify-content: flex-end;
+}
