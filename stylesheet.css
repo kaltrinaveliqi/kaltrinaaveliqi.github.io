@@ -840,7 +840,7 @@ button:not(:disabled) {
 }
 
 /* Start Media Query */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #navbar {
         flex-direction: column;
     }
