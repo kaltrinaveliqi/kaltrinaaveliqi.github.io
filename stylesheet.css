@@ -228,6 +228,7 @@ body {
     flex-wrap: wrap;
     padding: 20px;
     align-items: center;
+    justify-content: center;
     background-color: rgba(207, 220, 207, 0.988);
 }
 
@@ -266,7 +267,7 @@ body {
 footer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 footer col {
@@ -843,6 +844,12 @@ button:not(:disabled) {
 @media (max-width: 767px) {
     #navbar {
         flex-direction: column;
+        gap: 15px
+    }
+
+    footer {
+        flex-direction: column;
+        align-content: center;
     }
 }
 
